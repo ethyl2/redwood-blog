@@ -1,3 +1,19 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e24da66d-077f-4d63-81dd-f0905969920c/deploy-status)](https://app.netlify.com/sites/heather-redwood-blog/deploys)
+
+Deployed site: https://heather-redwood-blog.netlify.com/
+
+This site is a result of going through the wonderful tutorial found here: [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood)
+
+## Environmental Variables
+
+Set these up in your .env:
+
+- BINARY_TARGET=rhel-openssl-1.0.x
+- DATABASE_URL = <-- get this from your database credentials in heroku settings for your project.
+
+---------------------------
+From Redwood:
+
 # Redwood
 >**HEADS UP:** RedwoodJS is _NOT_ ready for use in Production. It relies heavily on Prisma2, which is currently in testing with an expected production release coming soon. See status at ["Is Prisma2 Ready?"](https://isprisma2ready.com)
 
