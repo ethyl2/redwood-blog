@@ -1,1 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotu&display=swap');
 
+* {
+  font-family: 'Gotu', sans-serif;
+}
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  background: rgb(253,248,246);
+}
+
+header h1 {
+  margin-left: 1rem;
+}
+
+header nav {
+  width: 40%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+header nav ul li {
+  width: 30%;
+  list-style-type: none
+  ;
+}
+
+a {
+  text-decoration: none;
+  color:rgb(191,71,34);
+}
+
+main {
+  margin-left: 3rem;
+}
+
+.home-page-main-content {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.blog-posts-cell-container {
+  display: flex;
+  flex-flow: column wrap;
+  width: 48%;
+}
+
+article {
+  width: 90%;
+}
+
+.img-container {
+  width: 48%;
+}
+
+.img-container img {
+  max-width: 100%;
+}
