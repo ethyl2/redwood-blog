@@ -4,6 +4,9 @@ Deployed site: https://heather-redwood-blog.netlify.com/
 
 This site is a result of going through the wonderful tutorial found here: [Tutorial](https://redwoodjs.com/tutorial/welcome-to-redwood)
 
+🤣   
+Redwood Infomercial: [youtube.com](https://youtu.be/KnvkdF3z85Q)
+
 ## Environmental Variables
 
 Set these up in your .env:
